@@ -19,4 +19,8 @@ Router.map(function () {
   this.route('not-found', {
     path: '/*path'
   });
+
+  this.route('cart', {
+    path: '/shopping-cart'
+  });
 });
